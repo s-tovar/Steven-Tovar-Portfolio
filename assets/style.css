@@ -8,9 +8,9 @@ possible root
 }*/
 
 .header {
-  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #3e4e50;
-  color: #fff;
+  color: #ffffff;
 }
 
 .header h1 {
@@ -23,6 +23,7 @@ possible root
 }
 
 .topnav {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #3e4e50;
   overflow: hidden;
   display: flex;
@@ -41,7 +42,7 @@ possible root
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #f2aa7e;
   color: black;
 }
 
@@ -58,11 +59,8 @@ body, html {
 /* This is for the Hero Section: 
 The hero image */
 .hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-
-/* Set a specific height */
-height: 50%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/steventovar/Desktop/bootcamp-UCR/Steven-Tovar-Portfolio/assets/Images/hero1.jpg");
+height: 90%;
 
 /* Position and center the image to scale nicely on all screens */
 background-position: center;
@@ -71,8 +69,8 @@ background-size: cover;
 position: relative;
 }
 
-/* Place text in the middle of the image */
 .hero-text {
+font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 position: absolute;
 top: 50%;
@@ -81,11 +79,7 @@ transform: translate(-50%, -50%);
 color: white;
 }
 
-.aside {
-  
-}
-
-/*This is for the About us Section: line 63-130 */
+/*This is for the About us Section: */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -111,12 +105,51 @@ html {
   margin: 8px;
 }
 
-.about-section {
+.about-me {
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  background: #3e4e50;
+  color: #fff;
+}
+.image-container {
+  flex: 1;
+  margin: 20px;
+
+  text-align: center;
+}
+
+img {
+  border-radius: 25px;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+  margin: 20px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/*.about-section {
   padding: 50px;
   text-align: center;
   background-color: #474e5d;
   color: white;
-}
+}*/
 
 .container {
   padding: 0 16px;
