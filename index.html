@@ -4,17 +4,10 @@
 <title>Work Portfolio</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="./assets/style.css">
-<style>
-</style>
-<script src=""></script>
 
 <body>
   
-    <!--<div class="header"> 
-      <h1>Wel<span class="com">com</span>e</h1> 
-    </div>
-
-Navigation Bar-->
+<!--Navigation Bar-->
     <nav class="topnav">
         <a class="active" href="hero-image">Home</a>
         <a href="#about-me">About</a>
@@ -27,11 +20,11 @@ Navigation Bar-->
         <div class="hero-text">
           <h1>Steven Tovar-Contreras</h1>
           <p>Full Stack Developer Student</p>
-          <button>Hire me</button>
         </div>
       </div>
 
 <!--About Me Section-->
+<div id="about-me">
       <section class="about-me">
         <div class="image-container">
           <img src="./assets/Images/contact-me.jpg" alt="Profile Picture">
@@ -39,9 +32,13 @@ Navigation Bar-->
         <div class="text-container">
           <h2>About Me</h2>
           <p>Hi there! My name is Steven Tovar and first generation, Chicano university graduate. Currently, I am currently enrolled at UCR's full stack developer extension program in pursuit of expanding my skillsets and career opportunities.</p>
-        </div>
+          <h3><a href="mailto: s.tovar2936@gmail.com" style="color:white">Email</a></h3>
+          <h3><a href="https://github.com/s-tovar" style="color:white">Github</a></h3>
       </section>
+    </div>
       
+      <!--Project section-->
+      <section id="Project">
       <h2 style="text-align:center">Projects</h2>
       <div class="row">
         <div class="column">
@@ -74,10 +71,12 @@ Navigation Bar-->
           </div>
         </div>
       </div>
+    </section>
 
-      <section class="contact-me">
+    <!--Contact me section-->
+      <section id="about" class="contact-me">
         <h2>Contact me</h2>
-        <form>
+        <form class="form">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required>
 
