@@ -1,37 +1,20 @@
-# Steven-Tovar-Portfolio
+# <Steven Tovar Portfolio >
 
-## User Story
+## Description
 
-AS AN employer
+This website portfolio provides potential employers personal work samples to review and asses whether they represent the work of a good candidate for an open position.
 
-I WANT to view a potential employee's deployed portfolio of work samples
+## Installation
 
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+N/A
 
-## Acceptcance Criteria 
+## Usage
 
-GIVEN I need to sample a potential employee's previous work
+To use this Web Portfolio, you can click on the link provided and follow the links on the navigation bar. By using the functioning navigation bar, you will have access to review a quick bio with links to email me and my github account, personal work samples, and a way to contact me. 
 
-WHEN I load their portfolio
+## Credits
 
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+"How to create a portfolio" tutorial W3 Schools - (in https://www.w3schools.com/howto/howto_website_create_portfolio.asp)
 
-WHEN I click one of the links in the navigation
+## License
 
-THEN the UI scrolls to the corresponding section
-
-WHEN I click on the link to the section about their work
-
-THEN the UI scrolls to a section with titled images of the developer's applications
-
-WHEN I am presented with the developer's first application
-
-THEN that application's image should be larger in size than the others
-
-WHEN I click on the images of the applications
-
-THEN I am taken to that deployed application
-
-WHEN I resize the page or view the site on various screens and devices
-
-THEN I am presented with a responsive layout that adapts to my viewport
