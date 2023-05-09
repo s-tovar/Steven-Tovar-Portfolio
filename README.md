@@ -1,4 +1,4 @@
-# <Steven Tovar Portfolio >
+# Steven Tovar Portfolio
 
 ## Description
 
